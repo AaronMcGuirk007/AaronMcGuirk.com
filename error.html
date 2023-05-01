@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 
   <head>
-    <title>Aaron McGuirk - Secret</title>
+    <title>Aaron McGuirk - 404</title>
     <meta charset="UTF-8">
     <link rel="icon" type="image/png" sizes="32x32" href="src/img/favicon-32x32.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="secret.css">
+    <link rel="stylesheet" href="error.css">
     <link rel="stylesheet" href="style.css">
     <script src="src/js/404.js" defer></script>
     <script src="src/js/css-color-inverter.js" defer></script>
@@ -139,34 +139,34 @@
     </div>
 </section>
 
-
 <!-- footer section start -->
 <footer>
-    <span>Created By <a href="https://www.linkedin.com/in/aaronmcguirk/">Aaron McGuirk</a> | <span class="far fa-copyright"></span> 2023 All rights reserved.</span>
+<span>Created By <a href="https://www.linkedin.com/in/aaronmcguirk/">Aaron McGuirk</a> | <span class="far fa-copyright"></span> 2023 All rights reserved.</span>
 </footer>
 
-  <script>
-  let sidebar = document.querySelector(".sidebar");
-  let closeBtn = document.querySelector("#btn");
-  let searchBtn = document.querySelector(".bx-search");
+<script>
+let sidebar = document.querySelector(".sidebar");
+let closeBtn = document.querySelector("#btn");
+let searchBtn = document.querySelector(".bx-search");
 
-  closeBtn.addEventListener("click", ()=>{
-    sidebar.classList.toggle("open");
-    menuBtnChange();
-  });
+closeBtn.addEventListener("click", ()=>{
+  sidebar.classList.toggle("open");
+  menuBtnChange();
+});
 
-  searchBtn.addEventListener("click", ()=>{
-    sidebar.classList.toggle("open");
-    menuBtnChange();
-  });
+searchBtn.addEventListener("click", ()=>{
+  sidebar.classList.toggle("open");
+  menuBtnChange();
 
-  function menuBtnChange() {
-   if(sidebar.classList.contains("open")){
-     closeBtn.classList.replace("bx-menu", "bx-menu-alt-right");
-   }else {
-     closeBtn.classList.replace("bx-menu-alt-right","bx-menu");
-   }
-  }
-  </script>
+});
+
+function menuBtnChange() {
+ if(sidebar.classList.contains("open")){
+   closeBtn.classList.replace("bx-menu", "bx-menu-alt-right");
+ }else {
+   closeBtn.classList.replace("bx-menu-alt-right","bx-menu");
+ }
+}
+</script>
 </body>
 </html>
