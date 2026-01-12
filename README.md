@@ -2,6 +2,7 @@
 > Developed by: Aaron McGuirk
 >* Encompases the ideas and showcase things I have learned throughout my college programming career.
 >
->* Link https://aaronmcguirk7.github.io/
+>* Time Machine: https://www.aaronmcguirk7.github.io/
+>* Current: https://www.aaronmcguirk.com/
 
 > Copyright © 2023 Aaron McGuirk & Associates
